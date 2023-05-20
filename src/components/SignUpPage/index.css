@@ -1,0 +1,50 @@
+.signUP-container {
+  background-image: url('https://res.cloudinary.com/dnxboobjh/image/upload/v1684564443/Plain-Blue-Wallpaper-291x585_peq7l2.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.signup-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.gender-container {
+  display: flex;
+  align-items: center;
+}
+
+.createBtn {
+  margin-top: 5px;
+  width: 120px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: hsl(210, 78%, 41%);
+  background-color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.create-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.error-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: red;
+  margin-top: 20px;
+  padding: 0px;
+  margin: 0px;
+}
